@@ -1,5 +1,4 @@
 # GitHub Workflow (GitFlow)
-https://guides.github.com/introduction/flow/
 
 ---
 
