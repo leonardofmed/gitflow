@@ -5,7 +5,7 @@
 1. Clone;
 1. Create a branch with a specific name of feature/fix (ex: automatic-map-zoom);
    1. If there is a existent branch, use `git fetch` and then `git checkout branch_name` to switch and track;
-   1. If there is a existent remote branch, use `git pull` to get changes and track;
+   1. If there is a existent remote branch, use `git pull <remote> <branch>` to get changes and track;
 1. Make changes;
 1. Add commits with a message referent to changes (daily);
    1. Push changes to specific branch;
