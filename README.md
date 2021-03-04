@@ -13,9 +13,10 @@
 1. Open pull request when feature/fix is finished or if there is some problem;
 1. Discussion about changes and code review;
 1. If something is wrong, fix it and push changes;
-1. Deploy for test;
-1. If branch has issues, roll it back by deploying the existing main branch;
-1. Merge (close issue with `Closes #id` if has any).
+2. If necessary revert your commit use `git revert --no-commit <commit code>..HEAD` and then `git commit -m "<message>"`;
+3. Deploy for test;
+4. If branch has issues, roll it back by deploying the existing main branch;
+5. Merge (close issue with `Closes #id` if has any).
 
 Repeat 2 to 10.
 
